@@ -3,7 +3,6 @@ import torch
 from torch import nn
 from torchaudio import functional
 import numpy as np
-import matplotlib.pyplot as plt
 
 # state variable filter (SVF) trained in frequency domain and inferred in time domain
 class DSVF(nn.Module):

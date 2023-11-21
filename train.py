@@ -20,11 +20,11 @@ print("using", device)
 # choose to retrain an existing model or train a new model (True or False)
 retrain = False
 # select model (MODEL1 or MODEL2)
-model_train = 'MODEL2'
+model_train = 'MODEL1'
 # select training data (la2a, facebender-rndamp, mcomp-rndamp-A1msR1000ms, ...)
 data = 'facebender-rndamp'
 # select folder name (used in eval.py)
-dir = 'facebender-rndamp_small_MODEL2'
+dir = 'facebender-rndamp_small_MODEL1'
 # GLU MLP hidden layer sizes
 layers = [3,4,5]
 # FC layer size in MODEL2
@@ -47,7 +47,7 @@ mr_stft = False
 loss_func2 = auraloss.freq.MultiResolutionSTFTLoss(fft_sizes = [1024, 512, 256], hop_sizes = [120, 50, 25], win_lengths = [600, 240, 100], mag_distance = "L1")
 alpha = 0.001
 # number of epochs
-n_epochs = 1000
+n_epochs = 3
 # ------------------------------------------------
 
 

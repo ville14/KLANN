@@ -2,15 +2,12 @@ import torch
 import torchaudio
 import numpy as np
 import auraloss
-from models import MODEL2#, MODEL1
-from models_tanh import NATIVE, ISOTOPE, MODEL1
-from help import ESRloss
-import matplotlib.pyplot as plt
+from models import MODEL2, MODEL1
 
 # MODIFIABLE
 # ------------------------------------------------
 # select model to evaluate (directory name)
-dir = 'mcomp-rndamp-A1msR1000ms_small_MODEL1_tanh'
+dir = 'facebender-rndamp_small_MODEL1'
 # ------------------------------------------------
 
 
