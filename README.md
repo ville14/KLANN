@@ -1,4 +1,4 @@
-# Koopman-based-deep-network
+# Koopman-Linearised Audio Neural Network (KLANN)
 
 ## Setup
 
