@@ -26,6 +26,6 @@ To evaluate a trained model, run ```python eval.py```. Change the 'dir' paramete
 
 ## Citation
 If you use any of this code in your work, please consider citing us.
-```    
-
+```
+V. Huhtala, L. Juvela and S. J. Schlecht, "KLANN: Linearising Long-Term Dynamics in Nonlinear Audio Effects Using Koopman Networks," in IEEE Signal Processing Letters, vol. 31, pp. 1169-1173, 2024, doi: 10.1109/LSP.2024.3389465.
 ```
